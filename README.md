@@ -50,28 +50,33 @@ The data was intentionally generated to resemble realistic fraud score behavior.
 
 Project Structure
 
-
 ```text
 fraud_detection_project/
 │
-├── data/
-│   ├── raw/
-│   └── processed/
+├── README.md
+├── data
+│   ├── processed
+│   └── raw
+│       ├── applications.csv
+│       └── outcomes.csv
 │
-├── notebooks/
-│   └── fraud_analysis.ipynb
+├── images
+│   └── threshold_analysis_table.png
 │
-├── sql/
+├── notebooks
+│   ├── fraud_analysis.ipynb
+│   └── test_notebook.ipynb
+│
+├── requirements.txt
+│
+├── sql
 │   ├── queries.sql
 │   └── schema.sql
 │
-├── src/
-│   └── generate_data.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+└── src
+    └── generate_data.py
 ```
+
 ⸻
 
 Key Python / Pandas Concepts Used
