@@ -144,6 +144,12 @@ FPR %	Percent of legitimate apps flagged
 
 These metrics simulate real-world fraud threshold decisioning.
 
+## Threshold Analysis Output
+
+The table below summarizes fraud capture, recall, and false positive rate tradeoffs across identity risk score thresholds.
+
+![Threshold Analysis Table](images/threshold_analysis_table.png)
+
 ⸻
 
 Example Insights
