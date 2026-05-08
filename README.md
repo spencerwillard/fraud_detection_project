@@ -50,6 +50,8 @@ The data was intentionally generated to resemble realistic fraud score behavior.
 
 Project Structure
 
+
+```text
 fraud_detection_project/
 │
 ├── data/
@@ -69,7 +71,7 @@ fraud_detection_project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ⸻
 
 Key Python / Pandas Concepts Used
